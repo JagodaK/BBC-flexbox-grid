@@ -57,10 +57,10 @@ $( "#flip" ).click(function() {
         $("#nav-container").css('background-color', '#ffffff');
         $(".color-swap").css('color','#333333');
         $(".border-swap").css("border-left", "1px solid #CCCCCC");
-        $(".logo-img").attr("src", "bbc-blocks-dark.png");
-        $(".user-icon").attr("src", "user.png");
+        $(".logo-img").attr("src", "img/bbc-blocks-dark.png");
+        $(".user-icon").attr("src", "img/user.png");
         $(".news-category-color-white").css('background-color', '#000000');
-        $(".arrow-icon").attr("src", "down-dark.png");
+        $(".arrow-icon").attr("src", "img/down-dark.png");
         $("input").css("background", "#E4E4E4");
   });
   return false;
@@ -70,9 +70,9 @@ $( "#flip" ).click(function() {
         $("#nav-container").css('background-color', '#000000');
         $(".color-swap").css('color','#ffffff');
         $(".border-swap").css("border-left", "1px solid #CCCCCC");
-        $(".logo-img").attr("src", "bbc-blocks-light.png");
-        $(".user-icon").attr("src", "social.png");
-        $(".arrow-icon").attr("src", "down-light.png");
+        $(".logo-img").attr("src", "img/bbc-blocks-light.png");
+        $(".user-icon").attr("src", "img/social.png");
+        $(".arrow-icon").attr("src", "img/down-light.png");
         $("input").css("background", "#ffffff");
   });
 
